@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 6496978610666204720}
   - component: {fileID: 7062178072584639641}
   - component: {fileID: 1293580726325301736}
+  - component: {fileID: -9167328024156036744}
   m_Layer: 0
   m_Name: BluePrefab
-  m_TagString: Untagged
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101,8 +102,23 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8475014501693995591}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8abff0f3731bf8747b8fb2069fbbd696, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  redObj: {fileID: 0}
+  blueObj: {fileID: 0}
+--- !u!114 &-9167328024156036744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8475014501693995591}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d52c9aa323212a343ba1aa8260aac834, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rend: {fileID: 6496978610666204720}
