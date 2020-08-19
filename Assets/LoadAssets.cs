@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class LoadAssets : MonoBehaviour
 {
-    public class redObj { }
+    public GameObject redObj;
+
     // Start is called before the first frame update
     void Start()
     {
